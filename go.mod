@@ -6,6 +6,7 @@ require (
 	github.com/Showmax/go-fqdn v1.0.0
 	github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6
 	github.com/cyberdelia/go-metrics-graphite v0.0.0-20161219230853-39f87cc3b432
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-martini/martini v0.0.0-20170121215854-22fa46961aab
 	github.com/go-sql-driver/mysql v1.10.0
 	github.com/hashicorp/consul/api v1.34.3
