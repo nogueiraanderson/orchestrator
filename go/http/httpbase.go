@@ -57,7 +57,7 @@ func isAuthorizedForAction(req *http.Request, user auth.User) bool {
 		}
 	case "jwt":
 		{
-			return jwtAudienceOK(req)
+			return jwtAudienceOK(req) && jwtNotExpired(req)
 		}
 	case "multi":
 		{

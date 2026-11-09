@@ -9,6 +9,7 @@ require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/go-martini/martini v0.0.0-20170121215854-22fa46961aab
 	github.com/go-sql-driver/mysql v1.10.0
+	github.com/golang-jwt/jwt/v5 v5.3.1
 	github.com/hashicorp/consul/api v1.34.3
 	github.com/hashicorp/raft v1.7.3
 	github.com/martini-contrib/auth v0.0.0-20150219114609-fa62c19b7ae8

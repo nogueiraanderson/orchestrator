@@ -33,6 +33,9 @@ github.com/go-sql-driver/mysql
 ## explicit; go 1.18
 github.com/go-viper/mapstructure/v2
 github.com/go-viper/mapstructure/v2/internal/errors
+# github.com/golang-jwt/jwt/v5 v5.3.1
+## explicit; go 1.21
+github.com/golang-jwt/jwt/v5
 # github.com/hashicorp/consul/api v1.34.3
 ## explicit; go 1.26
 github.com/hashicorp/consul/api
