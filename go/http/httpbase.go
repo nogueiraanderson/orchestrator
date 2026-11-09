@@ -55,6 +55,10 @@ func isAuthorizedForAction(req *http.Request, user auth.User) bool {
 			// The mere fact we're here means the user has passed authentication
 			return true
 		}
+	case "saml":
+		{
+			return samlRequestValid(req)
+		}
 	case "multi":
 		{
 			if string(user) == "readonly" {

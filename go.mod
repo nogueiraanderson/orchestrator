@@ -3,6 +3,7 @@ module github.com/openark/orchestrator
 go 1.26.5
 
 require (
+	github.com/RobotsAndPencils/go-saml v0.0.0-20230606195814-29020529affc
 	github.com/Showmax/go-fqdn v1.0.0
 	github.com/armon/consul-api v0.0.0-20180202201655-eb2c6b5be1b6
 	github.com/cyberdelia/go-metrics-graphite v0.0.0-20161219230853-39f87cc3b432
@@ -41,9 +42,11 @@ require (
 	github.com/hashicorp/go-rootcerts v1.0.3-0.20191216101743-c8a9a31cbd76 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/hashicorp/serf v0.10.2 // indirect
+	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
 	github.com/mattn/go-colorable v0.1.15 // indirect
 	github.com/mattn/go-isatty v0.0.22 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
+	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
 	github.com/outbrain/golib v0.0.0-20200503083229-2531e5dbcc71 // indirect
 	github.com/oxtoacart/bpool v0.0.0-20190530202638-03653db5a59c // indirect
 	golang.org/x/exp v0.0.0-20260603202125-055de637280b // indirect
